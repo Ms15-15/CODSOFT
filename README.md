@@ -1,4 +1,3 @@
-# CODSOFT
 # Task-1: CHATBOT WITH RULE-BASED RESPONSES
 
 Here's a more detailed summary of my simple chatbot:
