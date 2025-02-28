@@ -9,10 +9,8 @@ movies = pd.read_csv(r"D:\Internship files\codsoft\tasks\Task-4 dataset.csv")
 # Initialize TF-IDF Vectorizer
 tfidf = TfidfVectorizer(stop_words='english')
 
-# Compute the TF-IDF matrix
 tfidf_matrix = tfidf.fit_transform(movies['Description'])
 
-# Compute cosine similarity matrix|
 cosine_sim = linear_kernel(tfidf_matrix, tfidf_matrix)
 
 # Function to get movie recommendations based on content
