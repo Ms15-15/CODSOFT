@@ -42,17 +42,17 @@ The sign_dict list represents the board with nine empty spaces.
 
 FUNCTIONS :
 
-1)print_board(): Displays the current board state.
+1) print_board(): Displays the current board state.
 
-2)take_input(): Prompts the player for a move and validates it.
+2) take_input(): Prompts the player for a move and validates it.
 
-3)is_moves_left(): Checks if any empty spaces are left on the board.
+3) is_moves_left(): Checks if any empty spaces are left on the board.
 
-4)evaluate(): Checks if a player (X or O) has won the game by evaluating possible win 5)conditions (rows, columns, and diagonals).
+4) evaluate(): Checks if a player (X or O) has won the game by evaluating possible win 5)conditions (rows, columns, and diagonals).
 
-6)minimax(): Implements the Minimax algorithm for the AI to make optimal moves.
+6) minimax(): Implements the Minimax algorithm for the AI to make optimal moves.
 
-7)find_best_move(): Uses the Minimax algorithm to find the best move for the AI.
+7) find_best_move(): Uses the Minimax algorithm to find the best move for the AI.
 
 MAIN FUNCTION :
 
