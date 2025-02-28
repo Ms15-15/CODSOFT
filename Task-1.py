@@ -1,8 +1,7 @@
 from datetime import datetime 
 def chatbot_response(user_input):
-    # Convert user input to lower case to make the responses case-insensitive
     user_input = user_input.lower()
-    # Predefined responses based on user queries
+    # Predefined responses based on user 
     if "hello" in user_input or "hi" in user_input:
         user_input = user_input.capitalize()
         return f"{user_input}! What is your name?"
@@ -25,7 +24,7 @@ def chatbot_response(user_input):
 
 
 
-# Main loop to interact with the chatbot
+# Main loop 
 print("Welcome to the simple chatbot. Type 'bye' to exit.")
 while True:
     user_input = input("You: ")
